@@ -31,6 +31,10 @@ class RootFragment : Fragment() {
         binding.buttonDigitRecognition.setOnClickListener {
             findNavController().navigate(R.id.action_RootFragment_to_DigitCanvasFragment)
         }
+
+        binding.buttonFirebaseMlKit.setOnClickListener {
+            findNavController().navigate(R.id.action_RootFragment_to_FirebaseMlKitFragment)
+        }
     }
 
     override fun onDestroyView() {

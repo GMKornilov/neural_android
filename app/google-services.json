@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305664465657",
+    "project_id": "tensorflow-example-d4660",
+    "storage_bucket": "tensorflow-example-d4660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305664465657:android:9ae8f6c5b49a1081cf2028",
+        "android_client_info": {
+          "package_name": "com.example.tensorflowrawexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305664465657-nadgq8jeaihm6lpho8ubes4nedn3a6v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeOB3u54Fg8tfwwiJnOu8kIAoJnuyw4ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305664465657-nadgq8jeaihm6lpho8ubes4nedn3a6v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
