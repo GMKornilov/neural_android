@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/RootFragment">
+
+    <fragment
+        android:id="@+id/RootFragment"
+        android:name="com.example.tensorflowrawexample.RootFragment"
+        android:label="@string/root_fragment_label"
+        tools:layout="@layout/fragment_root">
+
+        <action
+            android:id="@+id/action_RootFragment_to_SimpleModelFragment"
+            app:destination="@id/SimpleModelFragment" />
+
+        <action
+            android:id="@+id/action_RootFragment_to_DigitCanvasFragment"
+            app:destination="@id/DigitRecognitionFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SimpleModelFragment"
+        android:name="com.example.tensorflowrawexample.SimpleModelFragment"
+        android:label="@string/simple_model_fragment_label"
+        tools:layout="@layout/fragment_simple_model"/>
+
+    <fragment
+        android:id="@+id/DigitRecognitionFragment"
+        android:name="com.example.tensorflowrawexample.digits.DigitCanvasFragment"
+        android:label="@string/digit_recognition_fragment_label"
+        tools:layout="@layout/fragment_digit_canvas" />
+
+</navigation>

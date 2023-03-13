@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TensorFlow Raw Example</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="root_fragment_label">Root fragment</string>
+    <string name="simple_model_fragment_label">Simple model fragment</string>
+    <string name="digit_recognition_fragment_label">Digit recognition fragment</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="go_to_simple_model">Simple model</string>
+    <string name="go_to_digit_recognition">Digit recognition</string>
+
+    <string name="x_1_hint">First variable</string>
+    <string name="x_2_hint">Second variable</string>
+    <string name="compute">Compute</string>
+    <string name="compute_loading_label">Computing…</string>
+    <string name="inference_time">Inference Time: %1$s ms</string>
+
+    <string name="tv_predicted_results">Predicted results:</string>
+    <string name="btn_clear">Clear</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
